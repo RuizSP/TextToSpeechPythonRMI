@@ -10,6 +10,8 @@ class StreamServer (object):
         tts.save("audioInfo.mp3")
         os.system("mpg321 audioInfo.mp3")
         #os.system('mplayer audioInfo.mp3')
+    def verificador(self):
+        return 0
 
 
 def main():
